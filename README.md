@@ -14,15 +14,22 @@ For the Android app, we need to carefully deal with the following items:
 
 Watch till the end for valuable insights and unique implementation techniques!
 
-GitHub Repo: [xxxx](https://github.com/fuwei007/OpenAIAndroidRealtimeDemo)
+GitHub Repo: (https://github.com/fuwei007/OpenAIAndroidRealtimeDemo)
 
 LinkedIn:   https://www.linkedin.com/in/navbot-frank/
+
 X: https://x.com/fuwei007cn
+
 facebook:https://www.facebook.com/weiwei.fufu 
 
+
 See my previous demo:
-Real-time API on Python:    [• Understanding OpenAI Real Time API Wi... ](https://www.youtube.com/watch?v=lOypO-ngBJ8&t=3s) 
-Real-time API demo on IOS: [https://www.youtube.com/watch?v=eWsvwTnscBA&t=877s](https://www.youtube.com/watch?v=eWsvwTnscBA&t=877s)
-Real-time API live demo at OpenAI'dev day:    [• Live demo of OpenAI's real-time API a...  ](https://www.youtube.com/watch?v=mVR90WmA34U&t=657s)
-Takeaways OpenAI'dev day: [https://www.youtube.com/watch?v=LIR21LcfRpM&t=64s](https://www.youtube.com/watch?v=LIR21LcfRpM&t=64s)
+Real-time API on Python:    (https://www.youtube.com/watch?v=lOypO-ngBJ8&t=3s) 
+
+Real-time API demo on IOS: (https://www.youtube.com/watch?v=eWsvwTnscBA&t=877s)
+
+Real-time API live demo at OpenAI'dev day:    (https://www.youtube.com/watch?v=mVR90WmA34U&t=657s)
+
+Takeaways OpenAI'dev day: (https://www.youtube.com/watch?v=LIR21LcfRpM&t=64s)
+
 
