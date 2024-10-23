@@ -21,8 +21,9 @@ import java.io.ByteArrayOutputStream
 import java.util.concurrent.Executors
 
 class RealTimeActivity : ComponentActivity() {
-    private val TAG = "Ai-Helper"
+    
     private lateinit var webSocket: okhttp3.WebSocket
+    private val TAG = "Ai-Helper"
     private var isRecording = false
     private lateinit var audioRecord: AudioRecord
 
@@ -50,6 +51,8 @@ class RealTimeActivity : ComponentActivity() {
         window.statusBarColor = android.graphics.Color.BLACK  // Set the status bar to transparent
 
     }
+
+
 
 
     /**
