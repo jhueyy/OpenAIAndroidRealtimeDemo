@@ -1,0 +1,268 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.navbot.aihelper"
+4    android:versionCode="4"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:4:22-63
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:5:5-81
+12-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:9:5-71
+15-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:9:22-68
+16
+17    <queries>
+17-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:9:5-16:15
+18        <intent>
+18-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:10:9-12:18
+19            <action android:name="android.intent.action.MAIN" />
+19-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:29:17-69
+19-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:29:25-66
+20        </intent>
+21        <intent>
+21-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:13:9-15:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:14:13-65
+22-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:14:21-62
+23        </intent>
+24        <intent>
+24-->[androidx.media:media:1.3.1] /Users/jakehuey/.gradle/caches/transforms-4/bdd1beb9eb66295835d9f47ed484f52b/transformed/media-1.3.1/AndroidManifest.xml:25:9-27:18
+25            <action android:name="android.media.browse.MediaBrowserService" />
+25-->[androidx.media:media:1.3.1] /Users/jakehuey/.gradle/caches/transforms-4/bdd1beb9eb66295835d9f47ed484f52b/transformed/media-1.3.1/AndroidManifest.xml:26:13-79
+25-->[androidx.media:media:1.3.1] /Users/jakehuey/.gradle/caches/transforms-4/bdd1beb9eb66295835d9f47ed484f52b/transformed/media-1.3.1/AndroidManifest.xml:26:21-76
+26        </intent>
+27    </queries>
+28
+29    <permission
+29-->[androidx.core:core:1.10.1] /Users/jakehuey/.gradle/caches/transforms-4/e88901102bd18b27143b2d467a9b0aec/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+30        android:name="com.navbot.aihelper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.10.1] /Users/jakehuey/.gradle/caches/transforms-4/e88901102bd18b27143b2d467a9b0aec/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.10.1] /Users/jakehuey/.gradle/caches/transforms-4/e88901102bd18b27143b2d467a9b0aec/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.navbot.aihelper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.10.1] /Users/jakehuey/.gradle/caches/transforms-4/e88901102bd18b27143b2d467a9b0aec/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.10.1] /Users/jakehuey/.gradle/caches/transforms-4/e88901102bd18b27143b2d467a9b0aec/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:12:5-34:19
+36        android:allowBackup="true"
+36-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:13:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.10.1] /Users/jakehuey/.gradle/caches/transforms-4/e88901102bd18b27143b2d467a9b0aec/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:14:9-65
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:fullBackupContent="@xml/backup_rules"
+41-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:15:9-54
+42        android:icon="@drawable/ic_launcher"
+42-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:16:9-45
+43        android:label="@string/app_name"
+43-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:17:9-41
+44        android:roundIcon="@drawable/ic_launcher"
+44-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:18:9-50
+45        android:supportsRtl="true"
+45-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:19:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.AppCompat.NoActionBar" >
+47-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:20:9-59
+48        <activity
+48-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:22:9-33:20
+49            android:name="com.navbot.aihelper.RealTimeActivity"
+49-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:23:13-45
+50            android:exported="true"
+50-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:24:13-36
+51            android:label="@string/app_name"
+51-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:26:13-45
+52            android:screenOrientation="portrait"
+52-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:25:13-49
+53            android:theme="@style/AppTheme.Base" >
+53-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:27:13-49
+54            <intent-filter>
+54-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:28:13-32:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:29:17-69
+55-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:29:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:31:17-77
+57-->/Users/jakehuey/AndroidStudioProjects/OpenAIAndroidRealtimeDemo/app/src/main/AndroidManifest.xml:31:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61        Service for holding metadata. Cannot be instantiated.
+62        Metadata will be merged from other manifests.
+63        -->
+64        <service
+64-->[androidx.camera:camera-core:1.3.4] /Users/jakehuey/.gradle/caches/transforms-4/e464e45ba458e13e5b5524b5d468a803/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:29:9-33:78
+65            android:name="androidx.camera.core.impl.MetadataHolderService"
+65-->[androidx.camera:camera-core:1.3.4] /Users/jakehuey/.gradle/caches/transforms-4/e464e45ba458e13e5b5524b5d468a803/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:30:13-75
+66            android:enabled="false"
+66-->[androidx.camera:camera-core:1.3.4] /Users/jakehuey/.gradle/caches/transforms-4/e464e45ba458e13e5b5524b5d468a803/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:31:13-36
+67            android:exported="false" />
+67-->[androidx.camera:camera-core:1.3.4] /Users/jakehuey/.gradle/caches/transforms-4/e464e45ba458e13e5b5524b5d468a803/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:32:13-37
+68
+69        <activity
+69-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:19:9-24:75
+70            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+70-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:20:13-83
+71            android:configChanges="orientation|keyboardHidden|screenSize"
+71-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:21:13-74
+72            android:exported="false"
+72-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:22:13-37
+73            android:theme="@style/ActivityTranslucent"
+73-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:23:13-55
+74            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+74-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:24:13-72
+75        <activity
+75-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:25:9-31:75
+76            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+76-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:26:13-71
+77            android:configChanges="orientation|keyboardHidden|screenSize"
+77-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:27:13-74
+78            android:exported="false"
+78-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:28:13-37
+79            android:multiprocess="true"
+79-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:29:13-40
+80            android:theme="@style/ActivityTranslucent"
+80-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:30:13-55
+81            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+81-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:31:13-72
+82
+83        <provider
+83-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:33:9-41:20
+84            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+84-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:34:13-70
+85            android:authorities="com.navbot.aihelper.utilcode.fileprovider"
+85-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:35:13-73
+86            android:exported="false"
+86-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:36:13-37
+87            android:grantUriPermissions="true" >
+87-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:37:13-47
+88            <meta-data
+88-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:38:13-40:68
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:39:17-67
+90                android:resource="@xml/util_code_provider_paths" />
+90-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:40:17-65
+91        </provider>
+92
+93        <service
+93-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:43:9-49:19
+94            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+94-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:44:13-81
+95            android:exported="false" >
+95-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:45:13-37
+96            <intent-filter>
+96-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:46:13-48:29
+97                <action android:name="com.navbot.aihelper.messenger" />
+97-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:47:17-69
+97-->[com.blankj:utilcodex:1.31.1] /Users/jakehuey/.gradle/caches/transforms-4/e0e514032c1380167d1ce321fc5a0fd0/transformed/jetified-utilcodex-1.31.1/AndroidManifest.xml:47:25-66
+98            </intent-filter>
+99        </service>
+100
+101        <activity
+101-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/jakehuey/.gradle/caches/transforms-4/fcddea49151d47c7e1d13114f54ed0a9/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+102            android:name="androidx.compose.ui.tooling.PreviewActivity"
+102-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/jakehuey/.gradle/caches/transforms-4/fcddea49151d47c7e1d13114f54ed0a9/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+103            android:exported="true" />
+103-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/jakehuey/.gradle/caches/transforms-4/fcddea49151d47c7e1d13114f54ed0a9/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+104        <activity
+104-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/jakehuey/.gradle/caches/transforms-4/9551c8106458c49423f5cf8bacedf438/transformed/jetified-ui-test-manifest-1.5.0/AndroidManifest.xml:23:9-25:39
+105            android:name="androidx.activity.ComponentActivity"
+105-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/jakehuey/.gradle/caches/transforms-4/9551c8106458c49423f5cf8bacedf438/transformed/jetified-ui-test-manifest-1.5.0/AndroidManifest.xml:24:13-63
+106            android:exported="true" />
+106-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/jakehuey/.gradle/caches/transforms-4/9551c8106458c49423f5cf8bacedf438/transformed/jetified-ui-test-manifest-1.5.0/AndroidManifest.xml:25:13-36
+107
+108        <provider
+108-->[androidx.emoji2:emoji2:1.4.0] /Users/jakehuey/.gradle/caches/transforms-4/7ea7369152465cdc28070f7cd969d38c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+109            android:name="androidx.startup.InitializationProvider"
+109-->[androidx.emoji2:emoji2:1.4.0] /Users/jakehuey/.gradle/caches/transforms-4/7ea7369152465cdc28070f7cd969d38c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+110            android:authorities="com.navbot.aihelper.androidx-startup"
+110-->[androidx.emoji2:emoji2:1.4.0] /Users/jakehuey/.gradle/caches/transforms-4/7ea7369152465cdc28070f7cd969d38c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+111            android:exported="false" >
+111-->[androidx.emoji2:emoji2:1.4.0] /Users/jakehuey/.gradle/caches/transforms-4/7ea7369152465cdc28070f7cd969d38c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+112            <meta-data
+112-->[androidx.emoji2:emoji2:1.4.0] /Users/jakehuey/.gradle/caches/transforms-4/7ea7369152465cdc28070f7cd969d38c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+113-->[androidx.emoji2:emoji2:1.4.0] /Users/jakehuey/.gradle/caches/transforms-4/7ea7369152465cdc28070f7cd969d38c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+114                android:value="androidx.startup" />
+114-->[androidx.emoji2:emoji2:1.4.0] /Users/jakehuey/.gradle/caches/transforms-4/7ea7369152465cdc28070f7cd969d38c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+115            <meta-data
+115-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jakehuey/.gradle/caches/transforms-4/ca6b9caf6fc2d5ab5a34a61b81a73fe5/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jakehuey/.gradle/caches/transforms-4/ca6b9caf6fc2d5ab5a34a61b81a73fe5/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+117                android:value="androidx.startup" />
+117-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jakehuey/.gradle/caches/transforms-4/ca6b9caf6fc2d5ab5a34a61b81a73fe5/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+120                android:value="androidx.startup" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+121        </provider>
+122        <provider
+122-->[com.github.JavaNoober.BackgroundLibrary:library:1.7.6] /Users/jakehuey/.gradle/caches/transforms-4/fcd79e1bf3558fb1564418795b3e9502/transformed/jetified-library-1.7.6/AndroidManifest.xml:10:9-14:43
+123            android:name="com.noober.background.BackgroundContentProvider"
+123-->[com.github.JavaNoober.BackgroundLibrary:library:1.7.6] /Users/jakehuey/.gradle/caches/transforms-4/fcd79e1bf3558fb1564418795b3e9502/transformed/jetified-library-1.7.6/AndroidManifest.xml:11:13-75
+124            android:authorities="com.navbot.aihelper.backgroundLibrary"
+124-->[com.github.JavaNoober.BackgroundLibrary:library:1.7.6] /Users/jakehuey/.gradle/caches/transforms-4/fcd79e1bf3558fb1564418795b3e9502/transformed/jetified-library-1.7.6/AndroidManifest.xml:12:13-69
+125            android:exported="false"
+125-->[com.github.JavaNoober.BackgroundLibrary:library:1.7.6] /Users/jakehuey/.gradle/caches/transforms-4/fcd79e1bf3558fb1564418795b3e9502/transformed/jetified-library-1.7.6/AndroidManifest.xml:13:13-37
+126            android:multiprocess="true" />
+126-->[com.github.JavaNoober.BackgroundLibrary:library:1.7.6] /Users/jakehuey/.gradle/caches/transforms-4/fcd79e1bf3558fb1564418795b3e9502/transformed/jetified-library-1.7.6/AndroidManifest.xml:14:13-40
+127
+128        <receiver
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+129            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+130            android:directBootAware="false"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+131            android:enabled="true"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+132            android:exported="true"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+133            android:permission="android.permission.DUMP" >
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+135                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+138                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+141                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+144                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jakehuey/.gradle/caches/transforms-4/a4ae9220dcba55a357634fae05be7d1c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+145            </intent-filter>
+146        </receiver>
+147    </application>
+148
+149</manifest>

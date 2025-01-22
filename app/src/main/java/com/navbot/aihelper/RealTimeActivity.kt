@@ -77,6 +77,7 @@ class RealTimeActivity : ComponentActivity() {
      * If permission is granted, it initializes the WebSocket connection.
      * Otherwise, shows a denial message.
      */
+    @Deprecated("Deprecated in Java")
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<String>,
@@ -98,8 +99,8 @@ class RealTimeActivity : ComponentActivity() {
      * Sets up the authorization headers and handles WebSocket events such as connection and message reception.
      */
     private fun initWebSocket() {
-        val client = okhttp3.OkHttpClient()
-        val request = okhttp3.Request.Builder()
+        val client = OkHttpClient()
+        val request = Request.Builder()
             .url(Config.WSURL)
             .addHeader("Authorization", "Bearer ${Config.OPENAI_API_KEY}")
             .addHeader("OpenAI-Beta", "realtime=v1")
@@ -124,7 +125,7 @@ class RealTimeActivity : ComponentActivity() {
      * @param text The message content received from the WebSocket.
      */
     private fun handleWebSocketMessage(text: String) {
-        Log.d(TAG, "Message received: ${text}")
+        Log.d(TAG, "Message received: $text")
         val eventJson = JSONObject(text)
 
         when (eventJson.optString("type")) {
@@ -147,7 +148,8 @@ class RealTimeActivity : ComponentActivity() {
                 val questionText = eventJson.optString("transcript", "")
                 Log.d(TAG, "User Question: $questionText")
                 runOnUiThread {
-                    findViewById<TextView>(R.id.ask_tv).text = questionText
+//                    findViewById<TextView>(R.id.ask_tv).text = questionText
+                      findViewById<TextView>(R.id.ask_tv).text = questionText
                 }
 
             }
@@ -155,6 +157,7 @@ class RealTimeActivity : ComponentActivity() {
             "conversation.item.created" -> {
                 runOnUiThread {
                     fullAnswerText.clear()
+//                    findViewById<TextView>(R.id.answer_tv).text = ""
                     findViewById<TextView>(R.id.answer_tv).text = ""
                 }
             }
@@ -553,7 +556,7 @@ class RealTimeActivity : ComponentActivity() {
         webSocket.send(commitJson.toString())
     }
 
-    fun test() {
+    private fun test() {
 
         val arrayList = arrayOf(
             "能从1数到10吗？,先说问题再说答案",
@@ -562,7 +565,8 @@ class RealTimeActivity : ComponentActivity() {
         )
 
         var n = 0
-        findViewById<Button>(R.id.btnSendText).setOnClickListener {
+//        findViewById<Button>(R.id.btnSendText).setOnClickListener
+        findViewById<Button>(R.id.btnSendText).setOnClickListener{
 
             val js = """
                 
@@ -600,6 +604,7 @@ class RealTimeActivity : ComponentActivity() {
 
         }
 
+        //findViewById<Button>(R.id.stopws).setOnClickListener
         findViewById<Button>(R.id.stopws).setOnClickListener {
             // 关闭 WebSocket
             webSocket.close(1000, "User closed connection")
@@ -627,7 +632,7 @@ class RealTimeActivity : ComponentActivity() {
             isPlaying = false
         }
 
-
+//        findViewById<Button>(R.id.playmys).setOnClickListener
         findViewById<Button>(R.id.playmys).setOnClickListener {
             // 播放send之前保存的语音文件
             if (tempAudioFilePath != null) {

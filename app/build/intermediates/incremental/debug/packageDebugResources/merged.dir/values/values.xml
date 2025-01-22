@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="app_background">#FFF4F5F8</color>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FF0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="voice_bar_color">#00C853</color>
+    <color name="white">#ffffff</color>
+    <item name="answer_tv" type="id"/>
+    <item name="ask_tv" type="id"/>
+    <item name="btnSendText" type="id"/>
+    <item name="playmys" type="id"/>
+    <item name="preview_view" type="id"/>
+    <item name="statusbarutil_fake_status_bar_view" ns1:ignore="ResourceName" type="id"/>
+    <item name="statusbarutil_translucent_view" ns1:ignore="ResourceName" type="id"/>
+    <item name="stopws" type="id"/>
+    <string name="app_name">AIHelper</string>
+    <style name="AppDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        
+        
+        
+        
+
+    </style>
+    <style name="AppTheme.Base" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:screenOrientation">portrait</item>
+        
+        
+        
+        <item name="alertDialogTheme">@style/AppDialogTheme</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        
+    </style>
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/white</item> 
+        <item name="android:textColor">@color/black</item> 
+    </style>
+</resources>

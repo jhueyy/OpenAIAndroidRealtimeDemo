@@ -3,4 +3,9 @@
     <item type="id" name="statusbarutil_fake_status_bar_view" tools:ignore="ResourceName" />
     <item type="id" name="statusbarutil_translucent_view" tools:ignore="ResourceName" />
     <item name="preview_view" type="id" />
+    <item name="ask_tv" type="id" />
+    <item name="answer_tv" type="id" />
+    <item name="btnSendText" type="id"/>
+    <item name="playmys" type="id" />
+    <item name="stopws" type="id" />
 </resources>

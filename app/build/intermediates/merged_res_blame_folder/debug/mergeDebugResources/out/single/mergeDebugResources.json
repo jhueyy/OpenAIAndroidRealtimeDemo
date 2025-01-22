@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/xml_data_extraction_rules.xml.flat",
+        "source": "com.navbot.aihelper.app-main-66:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_chatto_bg_focused.9.png.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/chatto_bg_focused.9.png"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/xml_backup_rules.xml.flat",
+        "source": "com.navbot.aihelper.app-main-66:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/mipmap-anydpi_ic_launcher.png.flat",
+        "source": "com.navbot.aihelper.app-main-66:/mipmap-anydpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_ic_play_arrow1.png.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/ic_play_arrow1.png"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/raw_audio.wav.flat",
+        "source": "com.navbot.aihelper.app-main-66:/raw/audio.wav"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_ic_play_arrow.png.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/ic_play_arrow.png"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/layout_activity_main.xml.flat",
+        "source": "com.navbot.aihelper.app-main-66:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_ic_close.png.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/ic_close.png"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_voice.png.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/voice.png"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_ic_launcher.png.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_ic_avater.png.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/ic_avater.png"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/layout_item_audio_message.xml.flat",
+        "source": "com.navbot.aihelper.app-main-66:/layout/item_audio_message.xml"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_bubble_left.xml.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/bubble_left.xml"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/layout_activity_new.xml.flat",
+        "source": "com.navbot.aihelper.app-main-66:/layout/activity_new.xml"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_voice_message_bg.xml.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/voice_message_bg.xml"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/raw_audio2.wav.flat",
+        "source": "com.navbot.aihelper.app-main-66:/raw/audio2.wav"
+    },
+    {
+        "merged": "com.navbot.aihelper.app-debug-64:/drawable_bubble_right.xml.flat",
+        "source": "com.navbot.aihelper.app-main-66:/drawable/bubble_right.xml"
+    }
+]
